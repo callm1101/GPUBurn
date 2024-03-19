@@ -1,0 +1,15 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 27,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "Base",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build"
+        }
+    ]
+}

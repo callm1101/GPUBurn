@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - --cuda-gpu-arch=sm_89
+  Remove:
+    - -c
+    - -forward-unknown-to-host-compiler
+    - --generate-code*
+    - -allow-unsupported-compiler
+    - -ccbin
+    - -arch=native
+    - -rdc=true
